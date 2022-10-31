@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex
+}
+
+.sidebar {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: x-large;
+    margin: 0%;
+    padding: 4%;
+    width:300px;
+    height: 100vh;
+    background-color: rgb(149, 147, 147);
+
+}
+
+.sidebar nav li {
+    list-style: none;
+}
+
+li {
+    padding: 28px;
+}
+
+.mainpage {
+    padding: auto;
+
+    width: 90vw;
+    /*background-color: rgb(215, 215, 215);*/
+}
+
+.mainpage_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px auto;
+    /* background-color: rgb(150, 111, 87); */
+    height: 58vh;
+    width: 71vw;
+
+}
+
+.devinfo {
+    font-family: 'Source Code Pro', monospace;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devimg img {
+    height: 58vh;
+    width: 25vw;
+}
+
+.hello {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 35px;
+}
+
+.extra{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+}
+.buttons button {
+    border: solid 2px black;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+    margin-top: 32px;
+    background-color: rgb(122, 121, 121);
+    cursor:pointer ;
+
+}
+.buttons button:hover{
+    background-color: black;
+}
+.buttons button a{
+    text-decoration: none;
+    color: white;
+
+}
+.sidebar nav li a {
+    
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    color: whitesmoke;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 20pxpx;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 170px;
+    align-items: center;
+}
+
+.contactform div{
+    padding-left: 0px;
+    padding: 12px;
+}
+.btn-submit{
+    border: solid 2px black;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+    margin-top: 32px;
+    background-color: rgb(122, 121, 121);
+    cursor:pointer ;  
+}
+.btn-submit:hover{
+    background-color: black;
+}
